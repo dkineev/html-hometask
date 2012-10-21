@@ -21,6 +21,19 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+group :development, :test do
+	gem 'sqlite3'
+	gem 'rspec-rails'
+end
+
+group :test do
+	gem 'capybara'
+end
+
+group :production do
+	gem 'pg'
+end
+
 
 gem 'jquery-rails'
 
@@ -38,20 +51,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-
-
-group :development, :test do
-	gem 'sqlite3'
-	gem 'rspec-rails'
-end
-
-group :test do
-	gem 'capybara'
-end
-
-group :production do
-	gem 'pg'
-end
 
 
 
