@@ -7,8 +7,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<table cellspacing="0" cellpadding="0" border="1" width="1300">
+	<tr>
+		<td align="center"><H1>First site Ruby</H1></td>
+	</tr>
+	<tr>
+		<td align="justify">
+				:: <%= link_to "Home", '/' %> ::
+    				<%= link_to "HomeWork1", '/home1' %> ::
+    				<%= link_to "HomeWork2", '/home2' %> ::
+				<%= link_to "HomeWork3", '/home3' %> ::
+		</td>
+	</tr>
+	<tr>
+		<td>
+		
+		<%= yield %>
+		
+		</td>
+	</tr>
+</table>
 </body>
 </html>
+    

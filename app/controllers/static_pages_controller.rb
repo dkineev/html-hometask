@@ -1,3 +1,5 @@
+#resources :static_pages
+
 class StaticPagesController < ApplicationController
   def index
   end
