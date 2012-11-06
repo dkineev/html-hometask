@@ -1,4 +1,12 @@
 HtmlHometask::Application.routes.draw do
+  get "static_pages/index"
+
+  get "static_pages/homew1"
+
+  get "static_pages/homew2"
+
+  get "static_pages/homew3"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
